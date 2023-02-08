@@ -40,4 +40,11 @@ h1 {
        font-family: 'Font Awsome 5 Free';
        color: #2ECC71;
        font-size: 7rem;
+       position: absolute;
+       opacity: 0.2;
+       top: 20px;
+       left: 20px;
+       z-index: 0;
    }
+
+   .faq.active::before{}
